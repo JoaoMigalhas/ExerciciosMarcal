@@ -1,0 +1,17 @@
+
+Desvios Condicionais
+
+Q1
+Ler cinco valores numéricos inteiros, identificar e apresentar o maior e o menor valor informado dentre
+os valores lidos. Atenção, não deve ser realizada ordenação dos mesmos, não deve ser realizado uso
+de vetores e nem comandos de repetição.
+Q2
+Ler um valor inteiro e apresentar uma mensagem informando se o valor é um número par ou ímpar.
+Q3
+Ler um valor numérico inteiro que seja na faixa de valores de 1 até 9. O programa deve apresentar a
+mensagem “O valor está na faixa permitida!”, caso o valor esteja fora da faixa deverá exibir a
+mensagem “O valor informado não é permitido pois não está na faixa de 1 a 9”.
+Q4
+Ler um valor numérico inteiro qualquer e fazer a sua apresentação caso o valor não seja maior que
+TRES. Utilize apenas o .não. (da tabela de operadores lógicos) para a solução do problema. Atenção
+para esse problema não deve ser utilizado os operadores relacionais

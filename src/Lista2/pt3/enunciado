@@ -1,0 +1,39 @@
+
+Desvios Condicionais
+
+Q1
+ORDENAR – Crie uma aplicação que solicite do usuário 3 valores inteiros quaisquer em qualquer ordem,
+os valores deverão ser apresentados ordenados.
+Q2
+MAIOR COM VALIDACAO - Crie uma aplicação que deverá solicitar do usuário dois valores numéricos
+inteiros quaisquer, essa deverá exibir na tela o maior valor informado no entanto antes de verificar
+qual o maior valor, a aplicação deverá validar se os valores são iguais, e caso sejam, deverá exibir uma
+mensagem ao usuário informando que valores iguais não é permitido.
+Q3
+CLASSIFICAR POR IDADE - Crie uma aplicação que deverá solicitar do usuário uma idade qualquer
+(número inteiro), com base nessa idade, o sistema deverá exibir diferentes mensagens conforme a
+tabela a seguir: a) Idade entre 0 e 10 anos - Olá criança, b) Idade entre 11 e 14 anos - Olá, você é um(a)
+pré-adolescente; c) Idade entre 15 e 18 anos - Parabéns, você já pode ser um eleitor; d) Idade entre 19
+e 21 anos - Hummm, você já é um adulto; e) Acima de 21 anos - Bem, agora já está na hora de sair de
+casa e seguir sua vida...
+Q4
+IMC - Crie uma aplicação para realizar o cálculo do IMC, a aplicação deverá solicitar do usuário o Peso
+e a Altura, deverá então processar o Índice de Massa Corporal, e com esse valor exibir as mensagens
+de acordo com a tabela de classificação de IMC (Pesquise como calcular o IMC).
+Q5
+APROVADO/REPROVADO - Crie uma aplicação que deverá solicitar do usuário (aluno) três notas, sendo
+que a primeira corresponderá a nota da avaliação 01, a segunda da avaliação 02 e a terceira referente
+a entrega de um trabalho, com base nestas três notas, aplique os seguintes pesos para calcular a média:
+30%, 40% e 30%. Com a média calculada verifique se o aluno foi aprovado ou reprovado conforme
+orientações que seguem: a) Se a média estiver entre 0 e 4.99 - "Reprovado"; b) Se a média estiver entre
+5.00 e 7.49 - "Aprovado"; c) Se a média estiver acima de 7.50 - "Parabéns, você foi aprovado com
+excelência".
+Q6
+ORDENAR COM BLOQUEIO DE VALORES REPETIDOS - Crie uma aplicação que deverá solicitar do usuário
+03 valores, assim que a aplicação contiver os três valores, a mesma deverá exibi-los em ordem
+crescente. A aplicação não deverá permitir que sejam fornecidos valores repetidos.
+Q7
+CONTAR PARES E IMPARES – Crie uma aplicação que deve solicitar do usuário 5 valores inteiros
+quaisquer, a aplicação deverá apresentar duas mensagens de saída, a primeira deverá informar a
+quantidade de números pares e impares fornecidos, a segunda deverá informar qual foi o tipo de
+número (par/impar) mais fornecido

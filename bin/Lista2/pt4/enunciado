@@ -1,0 +1,40 @@
+
+Desvios Condicionais
+
+Q1
+FIGURAS GEOMÉTRICAS – Crie um programa que seja capaz de calcular a área de 4 figuras geométricas,
+são elas, retângulo, triângulo, quadrado e círculo, todas as informações de dimensões das figuras
+devem ser fornecidas pelo usuário do sistema. Após o fornecimento dos dados, o sistema deverá
+realizar o cálculo das áreas de cada figura e exibir os seguintes resultados:
+a) A área calculada para cada figura geométrica.
+b) A figura geométrica com menor área.
+c) A figura geométrica com maior área.
+d) Exibir as áreas das figuras geométricas de forma crescente (da menor para a maior).
+Q2
+CÁLCULO DINHEIRO PARA VIAGEM – Crie um programa para calcular várias informações financeiras
+de um grupo de 4 amigos brasileiros que deseja viajar para um intercambio, o programa deverá
+solicitar: a) Cotação diária das seguintes moedas, Dólar, Euro e Libra Esterlina;
+b) O primeiro Nome (estude como armazenar nomes na linguagem C) e quantidade de Reais que cada
+um dos 4 amigos deseja levar.
+Após informar todos os dados, o programa deverá exibir os seguintes resultados:
+a) Deverá exibir a soma total juntando todos os valores em reais dos amigos.
+b) Deverá exibir o nome e valor do amigo que contiver a maior quantidade de reais.
+c) Deverá exibir o nome e valor do amigo que contiver a menor quantidade de reais.
+d) Deverá exibir o nome de cada um dos amigos e a quantidade de dinheiro que cada um terá para
+gastar na viagem já convertida em cada das moedas (aplique o valor das cotações), a mensagem
+deverá ser algo como “Joao tem X reais, convertidos terá Y dólares, Z euros e W libras.”
+e) Deverá exibir também os valores ordenados em reais do menor para o maior.
+Q3
+CÁLCULO DE NOTA DOS ALUNOS – Crie um programa que deverá solicitar RA, NOTA1, NOTA2 e
+NOTAPLURI para 3 alunos diferentes. Em posse das informações, o sistema deverá realizar as seguintes
+ações:
+a) Calcular a média para cada um dos alunos, aplicando os seguintes pesos 30% para nota1, 40%
+para nota2 e 30% para notapluri.
+b) Deverá apresentar o RA e MÉDIA de cada um dos alunos.
+c) Deverá apresentar a média geral das notas dos alunos (some as médias calculas e divida por
+três).
+d) Deverá apresentar o RA e a mensagem APROVADO (média >= 7.0) ou REPROVADO (média < 7).
+e) Deverá exibir uma mensagem informando quantos alunos foram aprovados e quantos foram
+reprovados.
+f) Deverá exibir o RA e MÉDIA ordenados do menor para o maior, para realizar a ordenação
+considere as médias calculadas.
