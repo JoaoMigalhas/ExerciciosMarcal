@@ -102,5 +102,6 @@ public class Lista4ex4 {
             }
 
         } while(opcao != 0);
+        teclado.close();
     }
 }

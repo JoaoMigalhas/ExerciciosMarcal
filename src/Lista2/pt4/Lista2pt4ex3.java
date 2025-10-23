@@ -145,5 +145,6 @@ public class Lista2pt4ex3 {
 
 	System.out.println("Ordem crescente das Medias: " + a + ", " + ", " + b + " e " + c );
 	System.out.println("Ordem crescente do RA: " + d + ", " + ", " + e + " e " + f );
+	teclado.close();
 	}
 }

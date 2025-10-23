@@ -21,5 +21,6 @@ public class Lista1ex7
 
         System.out.print("Voce tem " + real + " reais que convertido em dolar é igual a " 
             + dolar + " dolares que convertido em euro é igual a " + euro + " euros");
+            teclado.close();
     }
 }

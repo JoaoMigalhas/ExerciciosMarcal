@@ -100,5 +100,6 @@ public class menu {
                 }
 
         } while (opcao != 9);
+        teclado.close();
     }
 }

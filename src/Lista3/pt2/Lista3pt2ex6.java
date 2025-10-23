@@ -29,6 +29,6 @@ public class Lista3pt2ex6 {
         } else {
             System.out.println("\nNenhum valor positivo foi informado.");
         }
-
+        teclado.close();
     }
 }

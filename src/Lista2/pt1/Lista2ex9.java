@@ -15,5 +15,6 @@ public class Lista2ex9 {
         } else {
             System.out.print(a + " não é um numero par");
         }
+        teclado.close();
     }
 }

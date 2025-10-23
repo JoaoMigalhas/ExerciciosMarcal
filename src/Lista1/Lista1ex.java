@@ -17,6 +17,6 @@ public class Lista1ex {
         media = ((p1 + p2 + p3) / 3);
 
         System.out.println("Sua media foi igual a " + media);
-
+teclado.close();
     }
 }

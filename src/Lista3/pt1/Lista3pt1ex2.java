@@ -13,5 +13,6 @@ public class Lista3pt1ex2 {
 		int resultado = num * i;
 		System.out.println("A tabuada do " + num + " é " + resultado);
 	}
+	teclado.close();
 	}
 }

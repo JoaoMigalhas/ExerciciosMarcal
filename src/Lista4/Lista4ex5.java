@@ -89,6 +89,6 @@ public class Lista4ex5 {
             }
 
         } while(opcao != 0);
-
+        teclado.close();
     }
 }

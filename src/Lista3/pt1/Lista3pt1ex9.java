@@ -21,5 +21,6 @@ public class Lista3pt1ex9 {
 		System.out.println("o fatorial de " + num + " é " + fatorial);
 		
 	}
+	teclado.close();
 	}
 }

@@ -18,7 +18,8 @@ public class Lista3pt2ex4 {
                 }
             soma += fatorial;
         }
-;       System.out.println("A soma total de todos os fatoriais é: " + soma);
+     System.out.println("A soma total de todos os fatoriais é: " + soma);
+     teclado.close();
     }
 }
 

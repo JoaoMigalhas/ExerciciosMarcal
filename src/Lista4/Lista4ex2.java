@@ -62,5 +62,6 @@ public class Lista4ex2 {
             }
 
         } while (opcao != 9);
+        teclado.close();
     }
 }

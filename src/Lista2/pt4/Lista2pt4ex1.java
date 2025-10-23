@@ -71,5 +71,6 @@ public class Lista2pt4ex1 {
 	System.out.println("A menor area foi a: " + menor);
 	System.out.println("A maior area foi a: " + maior);
 	System.out.println("Ordeem crescente " + a + ", " + b + ", " + c + " e " + d);
+	teclado.close();
 	}
 }

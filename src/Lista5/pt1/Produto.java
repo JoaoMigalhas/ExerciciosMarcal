@@ -1,4 +1,4 @@
-package Lista5;
+package Lista5.pt1;
 
 public class Produto {
     private int codigo;

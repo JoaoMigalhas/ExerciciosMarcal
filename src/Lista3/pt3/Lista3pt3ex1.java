@@ -24,6 +24,6 @@ public class Lista3pt3ex1 {
         respostas = teclado.nextLine().toLowerCase();
         
     } while (respostas.equals("sim"));
-
+    teclado.close();
     }
 }

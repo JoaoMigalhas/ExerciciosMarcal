@@ -13,5 +13,6 @@ public class Lista1ex4
         far = ((celsius * 1.8) + 32);
 
         System.out.print(far + " graus em fahrenheit");
+        teclado.close();
     }
 }

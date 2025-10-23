@@ -53,6 +53,6 @@ public class Lista2pt3ex6 {
          System.out.println("Seus numero: " + menor + ", " + meio + " e " + maior);
        
         } 
-
+        teclado.close();
     }
 }

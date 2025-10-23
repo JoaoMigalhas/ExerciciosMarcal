@@ -61,5 +61,6 @@ public class Lista3pt3ex6 {
                 System.out.print(prodB + " " + prodA);
             }
         }
+        teclado.close();
 }
 }

@@ -16,5 +16,6 @@ public class Lista1ex5
         volume = (3.14149 * Math.pow(raio, 2) * altura);
 
         System.out.print("O volume da sua lata é igual a " + volume);
+        teclado.close();
     }
 }

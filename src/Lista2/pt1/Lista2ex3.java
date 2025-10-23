@@ -27,5 +27,6 @@ public class Lista2ex3 {
         } else {
             System.out.print("Aluno reprovado com " + media + " de média");
         }
+        teclado.close();
     }
 }

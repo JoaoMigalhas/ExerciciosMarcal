@@ -15,5 +15,6 @@ public class Lista2parte2ex3 {
         } else {
             System.out.println(numero + " não esta na faixa permitida");
         }
+        teclado.close();
     }
 }

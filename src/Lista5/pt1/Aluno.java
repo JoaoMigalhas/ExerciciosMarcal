@@ -1,6 +1,8 @@
-package Lista5;
+package Lista5.pt1;
 
-public class Aluno2 {
+//referente ao exercicio 1 da lista 5
+public class Aluno {
+    // Atributos privados
     private String ra;
     private String nome;
     private int idade;
@@ -9,21 +11,10 @@ public class Aluno2 {
     private String email;
     private String telefone;
 
-    // Construtor padrão
-    public Aluno2() {}
+    // Construtor vazio
+    public Aluno() {}
 
-    // Construtor com parâmetros
-    public Aluno2(String ra, String nome, int idade, String cpf, String sexo, String email, String telefone) {
-        this.ra = ra;
-        this.nome = nome;
-        this.idade = idade;
-        this.cpf = cpf;
-        this.sexo = sexo;
-        this.email = email;
-        this.telefone = telefone;
-    }
-
-    // Getters e Setters
+    // Getters e Setters (propriedades públicas)
     public String getRa() {
         return ra;
     }
@@ -80,16 +71,16 @@ public class Aluno2 {
         this.telefone = telefone;
     }
 
-    // Método para exibir as informações
+    // Método para exibir informações do aluno
     public void exibirDados() {
-        System.out.println("\n==============================");
+        System.out.println("\n===== DADOS DO ALUNO =====");
         System.out.println("RA: " + ra);
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("CPF: " + cpf);
         System.out.println("Sexo: " + sexo);
-        System.out.println("E-mail: " + email);
+        System.out.println("Email: " + email);
         System.out.println("Telefone: " + telefone);
-        System.out.println("==============================\n");
+        System.out.println("===========================\n");
     }
 }

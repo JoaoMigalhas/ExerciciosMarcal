@@ -15,5 +15,7 @@ public class Lista1ex3
         area = (pi * Math.pow(raio, 2));
 
         System.out.println("A area da sua circunferencia é igual a " + area);
+        teclado.close();
+        
     }
 }

@@ -21,5 +21,6 @@ public class Lista2pt3ex3 {
         } else {
             System.out.println("Bem, ja esta na hora de vc seguir sua vida");
         }
+        teclado.close();
     }
 }

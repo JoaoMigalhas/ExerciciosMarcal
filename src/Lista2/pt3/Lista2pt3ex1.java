@@ -26,5 +26,6 @@ public class Lista2pt3ex1 {
         if (numero3 > menor && numero3 < maior) meio = numero3;
 
         System.out.println("Seus numeros em ordem crescente sao: " + menor + ", " + meio + " e " + maior);
+        teclado.close();
     }
 }

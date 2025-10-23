@@ -31,5 +31,6 @@ public class Lista1ex8
         System.out.println("Sua N1 é igual a " + notap1);
         System.out.println("Sua N2 é igual a " + notap2);
         System.out.println("Sua media final portanto é igual a " + notafinal);
+        teclado.close();
     }
 }

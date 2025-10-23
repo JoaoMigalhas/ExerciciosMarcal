@@ -25,5 +25,6 @@ public class Lista2pt3ex5 {
         } else {
             System.out.println("Aluno aprovado com excelencia");
         }
+        teclado.close();
     }
 }

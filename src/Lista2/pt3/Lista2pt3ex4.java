@@ -26,5 +26,6 @@ public class Lista2pt3ex4 {
         } else {
             System.out.println("Obesidade grave com grau de obesidade igual a 3");
         }
+        teclado.close();
     }
 }

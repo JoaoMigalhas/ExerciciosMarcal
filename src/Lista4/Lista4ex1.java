@@ -17,6 +17,6 @@ public class Lista4ex1 {
         for (int i = 0; i < 10; i++) {
             System.out.println("Posição " + i + ": " + idades[i]);
         }
-
+        teclado.close();
     }
 }

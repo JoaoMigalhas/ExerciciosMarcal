@@ -21,5 +21,6 @@ public class Lista3pt1ex8 {
 	
 	System.out.println(base + " elevado a " + expoente + " é igual a " + resultado);
 
+	teclado.close();
 	}
 }

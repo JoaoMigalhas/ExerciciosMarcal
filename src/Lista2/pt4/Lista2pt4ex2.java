@@ -127,5 +127,6 @@ public class Lista2pt4ex2 {
 	System.out.println(nome4 + " tem " + reais4 + " em reais" + ", " + dolar4 + " de dolares" + ", " + euro4 + " de euros" + " e " + libra4 + " em libras");
 
 	System.out.println("A ordem crescente em reais é igual a: " + a + ", " + b + ", " + c + " e " + d);
+	teclado.close();
 	}
 }

@@ -33,5 +33,6 @@ public class Lista2ex6 {
         } else {
             System.out.print("Nenhum desses numeros são divisiveis por 2 e 3");
         }
+        teclado.close();
     }
 }

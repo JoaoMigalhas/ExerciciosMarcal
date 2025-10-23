@@ -28,5 +28,6 @@ public class Lista3pt1ex10 {
             System.out.println("O fatorial de " + numero + " é " + fatorial);
         }
              System.out.println("A soma total de todos os fatoriais é: " + soma);
+             teclado.close();
     }
 }

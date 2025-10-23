@@ -23,5 +23,6 @@ public class Lista1ex2
         System.out.println("Seu salario bruto é " + salariomensal);
         System.out.println("Seu desconto salarial é " + desconto);
         System.out.println("Seu salario salario líquido é " + salarioliquido);
+        teclado.close();
     }
 }

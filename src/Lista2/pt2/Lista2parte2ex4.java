@@ -15,5 +15,6 @@ public class Lista2parte2ex4 {
         } else {
             System.out.println(numero + " não é maior que 3");
         }
+        teclado.close();
     }
 }

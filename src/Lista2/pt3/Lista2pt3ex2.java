@@ -19,5 +19,6 @@ public class Lista2pt3ex2 {
         } else {
             System.out.println(numero2 + " é maior que o " + numero1);
         }
+        teclado.close();
     }
 }

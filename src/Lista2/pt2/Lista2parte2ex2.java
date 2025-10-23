@@ -15,5 +15,6 @@ public class Lista2parte2ex2 {
         } else {
             System.out.println(numero + " é impar");
         }
+        teclado.close();
     }
 }

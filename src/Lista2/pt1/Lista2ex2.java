@@ -17,5 +17,6 @@ public class Lista2ex2 {
         } else {
             System.out.println("Seu numero positivo é igual a " + numero);
         }
+        teclado.close();
     }
 }

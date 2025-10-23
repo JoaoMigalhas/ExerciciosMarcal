@@ -18,5 +18,7 @@ public class Lista3pt2ex5 {
 
         System.out.println("\nSoma dos valores = " + soma);
         System.out.println("Média dos valores = " + media);
+
+        teclado.close();
     }
 }

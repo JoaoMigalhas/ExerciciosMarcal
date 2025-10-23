@@ -50,5 +50,6 @@ public class Lista2ex7 {
         } else {
             System.out.print(numero4 + " não é divisivel por 2 nem por 3");
         }
+        teclado.close();
     }
 }

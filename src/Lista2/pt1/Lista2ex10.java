@@ -15,5 +15,6 @@ public class Lista2ex10 {
         } else {
             System.out.print("O valor não está na faixa permitida");
         }
+        teclado.close();
     }
 }

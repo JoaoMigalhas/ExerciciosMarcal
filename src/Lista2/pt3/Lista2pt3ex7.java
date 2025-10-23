@@ -58,6 +58,6 @@ public class Lista2pt3ex7 {
             System.out.println("A quantidade de numeros pares e impares foram iguais");
         }
         System.out.println(("A quantidade de numeros pares foi igual a " + pares + " e de numeros impares foi igual a " + impares));
-        
+        teclado.close();
     }
 }

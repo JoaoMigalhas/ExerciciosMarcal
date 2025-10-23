@@ -74,6 +74,8 @@ public class Lista3pt3ex8 {
         } while (opcao != 9);
 
         System.out.println("Encerrando o programa...");
+
+        teclado.close();
     }
     
 }

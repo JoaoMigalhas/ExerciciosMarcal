@@ -19,5 +19,6 @@ public class Lista1ex6
         prestacao = (valortotal * (taxa / 100) * tempo);
 
         System.out.print("Voce ira pagar " + prestacao + " reais de prestacao");
+        teclado.close();
     }
 }

@@ -60,6 +60,6 @@ public class Lista3pt3ex5 {
                 System.out.print(somaB + " " + somaA);
             }
         }
-
+        teclado.close();
     }
 }

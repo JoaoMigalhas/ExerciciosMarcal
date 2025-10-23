@@ -38,5 +38,6 @@ public class Lista2ex4 {
         } else {
             System.out.print("Aluno reprovado com " + mediaFinal + " de media.");
         }
+        teclado.close();
     }
 }

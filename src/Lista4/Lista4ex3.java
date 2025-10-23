@@ -121,6 +121,7 @@ public class Lista4ex3 {
             }
 
         } while(opcao != 0);
+        teclado.close();
 }
 }
 

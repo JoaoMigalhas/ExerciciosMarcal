@@ -33,5 +33,6 @@ public class Lista2ex8 {
         if (numero5 < menor) menor = numero5;
 
         System.out.println("O maior numero que você digitou foi: " + maior + " e o menor foi: " + menor);
+        teclado.close();
     }
 }

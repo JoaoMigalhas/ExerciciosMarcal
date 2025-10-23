@@ -12,5 +12,6 @@ public class Lista3pt3ex2 {
         for (int i = 0; i <= p; i+= n) {
             System.out.println(i);
         }
+        teclado.close();
     }
 }

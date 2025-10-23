@@ -24,6 +24,6 @@ public class Lista3pt3ex3 {
         for (int i = 1; i <= p3; i++) {
             System.out.println(i);
         }
-
+        teclado.close();
     }
 }

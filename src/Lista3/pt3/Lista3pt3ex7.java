@@ -21,6 +21,6 @@ public class Lista3pt3ex7 {
 
         System.out.println("A soma dos salários informados é: " + soma);
 
-
+        teclado.close();
     }
 }
