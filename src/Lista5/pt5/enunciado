@@ -1,0 +1,47 @@
+01. Um determinado veterinário após abrir sua clínica necessita de um sistema para fazer o controle dos
+animais que irão ser atendidos. Este veterinário atende animais de pequeno e médio porte entre
+mamíferos e repteis. Como o sistema deve ser bem simples e irá iniciar pelo cadastro dos animais,
+ele diz que irá precisar:
+A. De cada animal que será antendido: Nome, Peso, Idade, Sexo, Data de entrada, Motivo
+atendimento do animal, Nome responsável, CPF responsável, Telefone contato responsável.
+B. Para os mamíferos: Tipo (gato, cachorro, porco, coelho, outro), Cor, Alimentação (Carnivoro,
+Herbivoro).
+C. Para os repteis: Classificação (Escamados, Crocodilianos, Lacertílios), Tipo reprodução
+(Ovípara, Fecundação), Tipo de habitate (Aquático, Terreo).
+D. Sistema: Será necessário que o sistema tenha um cadastro, ao cadastrar um dos animiais o
+sistema irá gerar um código qualquer e adiciona-lo em uma base de dados (pode ser um
+vetor, list). O sistema deverá permitir: Inserção, Pesquisa (código), Exclusão (código),
+Relatório (imprimir todos animais cadastrados). É fundamental que no desenvolvimento seja
+utilizado o conceito de Herança.
+02. A empresa Tecnologia Ao Seu Alcance LTDA, irá deixar de utilizar um sistema de terceiro responsável
+pelo calculo da folha de pagamento e irá desenvolver seu próprio sistema. A essencia deste sistema
+consiste no cadastro dos Colaboradores (ou funcionários), na análise preliminar detectou-se que:
+A. Dados comuns: Todos os colaboradores tem em comum as informações: Código interno,
+Nome, CPF, Data de admissão, Salário.
+i. Não deve ser permitido inserir um salário com valor negativo ou zerado;
+ii. Todo colaborador deverá conter um nome com mais que 10 caracteres;
+iii. No momento do cadastro cada, colaborador deverá receber um código interno
+gerado automaticamente (ou seja, o código interno deverá ser gerado pelo sistema e
+não informado pelo usuário do sistema) pelo sistema respeitando a seguinte regra
+YYMMSSS (yy = ano, mm = mês, sss = código randomico – Será necessário pesquisar
+como manipular datas em Java e também como funciona a função Random);
+iv. O CPF não poderá conter letras e deverá ter exatamente 11 digítos.
+B. Os engenheiros: Tipo (Civil, Ambiental, Produção, Outro), Nivel (Estagiário, Junior, Pleno,
+Senior);
+C. Diretores: Area (Administrativo, Comercial, Markting, Financeiro, Faturamento, outro); Data
+da posse (pois todo diretor foi um colaborador da empresa e em algum momento tomou
+posse do posto).
+Page 2 of 2
+D. Geral: Cargo (Limpeza, Secretaria, Controle acesso, Segurança, outro); Area (Fiscal,
+Comercial, Financeira, Vendas, outra).
+E. Sistema: Será necessário ter um cadastro para os funcionários, este cadastro deverá ter as
+opções:
+i. Inserir (Valor) – Insere um novo registro;
+ii. Alterar (Codigo, NovoValor) – Recebe o código do colaborador que receberá as
+alterações e as novas informações;
+iii. Excluir(Codigo) – Recebe o código do funcionário que será removido;
+iv. Pesquisar (Codigo) – Localiza o colaborador a partir do código fornecido;
+v. Pesquisar (NomeParcial) – Localiza todos os colaboradores que o nome contiver parte
+do nome fornecido (pesquisar sobre como localizar um texto dentro de outro texto
+em java).
+vi. Relatório – Imprime na tela as informações de todos os colaboradores
