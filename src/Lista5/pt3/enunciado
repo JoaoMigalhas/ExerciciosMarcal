@@ -1,0 +1,19 @@
+1. Crie uma aplicação que será responsável por um cadastro de produtos, é extremamente importante
+que as orientações abaixo sejam seguidas:
+a) Produto - Cada produto deverá conter os seguintes atributos devidamente encapsulados:
+CodigoEAN; Nome; Descrição; PrecoCusto; MargemLucro; PrecoVenda; SaldoEstoque; Ativo.
+b) Preço de venda – Deverá ser calculado automaticamente no momento da atribuição do Preço de
+Custo e da Margem de Lucro (utilize os métodos ‘set’).
+c) Ativo – O atributo ativo deverá somente conter as seguintes informações: Ativo, Desativado,
+Cancelado (utilize um enumerator).
+d) Código EAN – Não deve permitir códigos com valores negativos.
+e) Nome – Não deve permitir valores nulos ou sem informações.
+f) Classe Produto - Deverá conter uma classe chamada Produto para identificar cada produto.
+g) Classe Produtos Banco - Deverá conter uma classe chamada ProdutosBanco que será responsável
+por realizar o CRUD.
+h) Produtos Banco – Não deverá permitir que sejam adicionados 2 produtos com o mesmo código
+(na propriedade de inserção, valide se existe um produto armazenado com o mesmo código,
+caso exista não permita inserir).
+i) Produtos Banco – Deverá conter um método chamado AtualizarMargemLucroEm que deverá
+receber um valor de percentual, que deverá atualizar todos os produtos.
+j) Menu - Deverá conter uma classe Menu que irá ser responsável pela interface com o usuário
