@@ -1,0 +1,70 @@
+Q0
+SUGESTÃO (MENU INTERATIVO) – O que acha de criar um menu interativo e cada uma das opções do
+menu corresponderá a uma das questões abaixo? Assim você não precisará criar vários projetos
+diferentes, em apenas um será possível ter todos os exercícios desta listagem, o que acha? É apenas
+uma sugestão, pense nisso.
+Q1
+IMPRIMIR NOMES X VEZES e REPETIR – Crie uma aplicação console que solicite o NOME e também o
+NÚMERO DE REPETIÇÕES do usuário, a aplicação deverá então imprimir um texto composto por um
+contador e o nome (X – NOME) onde o contador iniciará em 1 e terminará no número fornecido pelo
+usuário. Após o término do processamento, deverá perguntar para o usuário se ele deseja continuar
+(“Deseja repetir o processamento? (0 = Não; 1 = Sim)”, se o usuário responder Sim, então o processo
+deverá ser novamente executado. Dica: Utilize o comando do ... while.
+Q2
+IMPRIMIR MULTIPLOS – Escreva uma aplicação de console que receba um número inteiro n e um outro
+valor numérico p que representa o passo da contagem (valor do incremento) imprimindo uma
+contagem de 0 até n (se possível) de p em p. Por exemplo, se fornecido 10 e 3, deverão ser exibidos:
+0, 3, 6 e 9. Caso o segundo argumento não seja fornecido, assume-se que p = 1 (contagem simples).
+Dica: Utilize o comando FOR.
+Q3
+IMPRIMIR 3 CONTAGENS – Crie uma aplicação que solicite do usuário 3 valores inteiros, para cada um
+dos valores informados, imprima uma contagem que variará de 1 até o número informado, entre cada
+contagem imprima o texto “Impressao contagem do valor X” (onde x corresponde a um dos números
+informados). Por exemplo, se o usuário informar os inteiros 2, 4 e 3, deverá ser impresso:
+Impressão contagem do valor 2:
+1
+2
+Impressão contagem do valor 4:
+1
+2
+3
+4
+Impressão contagem do valor 3:
+1
+2
+3
+2
+Q4
+IMPRIMIR 3 CONTAGENS DECRESCENTE – Crie uma aplicação baseada na Q3, a única alteração é que
+nesta versão os valores impressos deverão serem exibidos em ordem decrescente. Dica: É possível
+utilizar o comando FOR com decremento ao invés de incremento e iniciar a variável de controle em um
+número maior.
+Q5
+SOMAR INTERVALOS 3 VALORES – Crie uma aplicação que solicite do usuário 3 valores (a, b, c) inteiros
+diferentes, a aplicação deverá realizar a soma de todos os valores de 1 até o valor informado pelo
+usuário individualmente, exemplo: a = 3 (1+2+3 = 6), b = 2 (1+2=3), c = 4 (1+2+3+4=10), no final deverá
+apresentar:
+a) Resultado da soma de cada intervalo;
+b) O menor valor de soma;
+c) O maior valor de soma;
+d) Os valores ordenados do menor para o maior.
+Q6
+PRODUTO INTERVALO 3 VALORES – Crie uma aplicação baseada no exercício Q5, a diferença consistirá
+apenas que ao invés de realizar soma, esta versão irá realizar o produto dos valores, exemplo: a = 3
+(1*2*3 = 6), b = 2 (1*2=2), c = 4 (1*2*3*4=24), no final do processamento deverão ser apresentadas
+as mesmas informações do exercício Q5 (considerando o produto dos valores).
+Q7
+SOMAR SALARIOS (MÁXIMO 5 OU ATÉ INFORMAR ‘NÃO’) – Crie uma aplicação que deverá realizar a
+soma de valores correspondente a salários, esta aplicação deverá logo de entrada solicitar um salário,
+após o usuário informar o valor, deverá perguntar “Deseje informar outro salário (0 = Nao, 1 = Sim)?”
+caso o usuário informe “Sim”, deverá solicitar outro salário e repetir o processo até que o usuário
+informe “Não”, no final do processamento deverá ser exibida a mensagem “A soma dos salários
+informados e: XXX.”. Observação: 5 é o número máximo de salários informados, então mesmo que o
+usuário diga que deseja continuar informando, após atingido o número máximo a aplicação deverá
+parar.
+Q8
+MENU INTERATIVO 6 OPÇÕES – Crie uma aplicação que contenha um menu interativo com as
+seguintes opções 1. Contar pares; 2. Contar ímpares; 3. Produto pares; 4. Produto ímpares; 9. Sair. Para
+cada uma das opções deverá ser solicitado um número inteiro quando o usuário acessar a opção,
+baseado no número informado, percorra de 1 até o número informado e execute cada uma das
+operações de acordo com a descrição da opção do menu e no final apresente o resultado da operação
