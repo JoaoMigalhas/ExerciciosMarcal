@@ -1,0 +1,44 @@
+01. CALCULADORA – Em uma empresa de contabilidade é muito comum existir a necessidade de realizar
+calculos diversos, como por exemplo somas, subtrações, divisões, etc. Todas as operações
+matemáticas realizadas podem conter vários parametros, um sistema que atende esta necessidade
+também devem conter estas operações para evitar que os programadores refaçam sempre as
+mesmas operações, para tanto o programador Senior deu a estruturura abaixo ao programador
+Junior e solicitou ao mesmo que implemente uma classe abstrata para cada uma das opções abaixo.
+Observação: Todos os métodos devem ser acessados sem a necessidade de instanciar o objeto.
++ CalculadoraFwk {
++ Numero Somar(A, B); //retorna (não é imprime) o valor da soma de dois números.
++ Inteiro Somar(A, B); // retorna a soma de dois inteiros.
++ Numero Somar(A, B, C) // retorna a soma de valores numéricos.
++ Numero Somar(vetor numeros[] x) // retorna a soma dos valores de um vetor num.
++ Numero Subtrair (A, B); retorna a subtração do valor de B do valor de A.
++ Numero Subtrair(A, vetor B); retorna: Soma os valores B e subtrai de A;
++ Numero Dividir(A, B); retorna divisão A por B, se algum valor 0, retorna 0.
++ Numero Multiplica(A, B); retorna multiplicação A por B, se algum valor 0, retorna 0.
+}
+02. MEDIA – A nota final ou média dos alunos de uma faculdade pode ser calculada de diferentes
+maneiras, no entanto todas essas maneiras são determinadas pela instituição, no desenvolvimento
+do sistema acadêmico foi solicitado a criação de uma classe chamada CalculaMediaFwk, esta classe
+deve ser acessada sem a necessidade instanciação dos métodos e será utilizada em todo sistema,
+implemente a classe solicitada e também os métodos respeitando as regras.
+Observação:
+- Todos os métodos devem receber os valores por parametros e retornar (retornar, não é imprimir) a
+média.
+- Crie um menu para testar as opções, para os parametros de vetor, crie um looping e carregue-o
+com valores informados pelo usuário.
++ Número GetMedia(A, B) // Média
++ Número GetMedia(A, B, C) // Média
++ Número GetMediaPonderada(A, B, C) //Pesos 3.5, 3.5 e 3.0
++ Número GetMediaPonderada(A, B, TR, PL) //Pesos 3.0, 3.0, 2.0 e 2.0
++ Número GetMediaPonderada(A, B, vetor TR) //Pesos: 3.5, 3.5 e 3.0
++ Número GetMediaPonderada(A, B, PL, vetor TR) //Pesos: 3.0, 3.0, 2.0, 2.0
+Page 2 of 3
+03. CALCULOS CONTABEIS – Uma empresa de contabilidade necessida realizar vários calculos contabeis,
+dentre os calculos o INSS e IRRF são dois dos calculos comuns que constante são realizados, logo
+abaixo são apresentadas as tabelas para calculo de ambos, crie uma classe que deve permitir utilizar
+os métodos de calculo sem a necessidade de instanciar um objeto.
+Observações:
+- Crie um menu para utilizar a classe e método.
+- Ambos metodos para calculo das tabelas devem estar na mesma classe.
+Figura 1. Fonte: http://www.previdencia.gov.br/servicos-ao-cidadao/todos-os-servicos/gps/tabela-contribuicao-mensal/
+Figura 2. Fonte: http://www.previdencia.gov.br/servicos-ao-cidadao/todos-os-servicos/gps/tabela-contribuicao-mensal/
+Page 3 of 3
