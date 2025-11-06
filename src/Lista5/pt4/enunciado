@@ -1,0 +1,47 @@
+1. SOBRECARGA - Crie a classe abaixo respeitando as seguintes regras:
+a. Os métodos deverão ser estáticos, ou seja, poderão ser acessados sem a
+necessidade de instanciar o objeto.
+b. Os métodos devem estar funcionais, ou seja, o método “Somar” deverá receber
+os valores de parâmetro e retornar o valor correspondente, atenção ao método
+que receber como parâmetro um array.
+c. Crie um menu de console para utilizar cada um dos métodos abaixo.
+d. Atenção para a opção que usa vetor, pois primeiramente terá que solicitar qual
+a quantidade de valores que o usuário irá digitar para então conseguir
+instanciar um vetor com a quantidade de valores e respectivamente carrega-lo
+para fornecer o mesmo ao método.
+2. SOBRECARGA – Dado o cenário abaixo, implemente uma classe que permita realizar
+os respectivos calculos, crie métodos utilizando-se dos conceitos de sobrecarga.
+Cenário: O setor financeiro da faculdade lida diariamente com vários casos de alunos
+que necessitam recalcular os valor da mensalidade pois sempre existem situações
+que podem gerar descontos, normalmente o setor financeiro parte do valor da
+mensalidade e aplicam alguma regra de desconto, abaixo são descritas as regras de
+desconto.
+a. O desconto pode ser calculado utilizando-se do número de dias (inteiro) que o
+aluno paga com antecedência, caso ele pague com até 5 dias, recebe desconto
+de 3%, caso pague com até 10 dias 5% e acima de 10 dias 8%.
+b. O desconto pode ser calculado utilizando-se a nota do ENEM que porde ser
+fonecida em fração (valor real), no caso, se a nota for entre os valores 700.00 e
+800.00 recebe 5% de desconto, de 800.01 a 900.00 recebe 8% de desconto e
+acima de 900.00 recebe 10%, abaixo de 700.00 não recebe nenhum desconto.
+Page 2 of 2
+c. O percentual também pode ser calculado baseado na média das três maiores
+médias do semestre anterior, ou seja, ele fornecerá 3 médias, as regras são
+então: Se alguma das médias for inferior a 8,00 nenhum desconto será
+concedido, se a média calculada for menor que 8,50 também não será
+fornecido nenhum desconto, se a média calculada estiver entre 8.51 e 9.00 será
+dado 5% de desconto, acima disso será dado 8%.
+3. SOBRECARGA (CONTRUTOR) – Assim como os demais métodos, o construtor também
+pode ser sobrecarregado (ou seja, podem existir vários métodos construtores com um
+número diferente de parametros). Para o exemplo abaixo, monte uma classe que
+represente um cliente, esta classe deverá conter o Código, Nome, Idade, Salário, Cpf e
+RG e Situação que pode receber os valores Orçamento, Cliente e Pedido (neste caso
+use um enumerator) todos atributos devem estar devidamente encapsulados.
+A classe cliente, pode ser utilizada por vários módulos de um sistema, sendo
+assim:
+a. No módulo de Orçamento deve ser rápido, logo somente o Nome do cliente é
+informado e automaticamente o campo Situação deve ser preenchido com
+“Orçamento”.
+b. No módulo Cliente, todos os dados devem ser obrigatoriamente fornecidos, e o
+campo situação prenchido com “Cliente”.
+c. No módulo Pedido, deve ser fornecido somente o Código Nome e CPF, e o
+campo situação deverá ser preenchido com “Pedido”
