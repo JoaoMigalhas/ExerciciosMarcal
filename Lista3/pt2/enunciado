@@ -1,0 +1,36 @@
+
+Comandos de repetição
+
+Q1
+FIBONACCI – Crie uma que apresente a série Fibonacci até o décimo quinto termo. A série Fibonacci é
+formada pela sequência: 1, 1, 2, 3, 5, 8, 13, 21, 34, ... etc. Esta série se caracteriza pela soma de um
+termo posterior com o seu anterior subsequente.
+Q2
+CONVERSÃO GRAUS – Crie um programa que apresente os valores de conversão de graus Celsius em
+Fahrenheit, de 10 em 10 graus, iniciando a contagem em 10 graus Celsius e finalizando em 100 graus
+Celsius. O programa deverá apresentar os valores das duas temperaturas.
+Q3
+GRAOS DE TRIGO NO TABULEIRO – Elabore um programa que efetue o cálculo e no final apresente o
+somatório do número de grãos de tricô que se pode obter num tabuleiro de xadrez (8x8), o programa
+deverá obedecer a seguinte regra: colocar um grão de trigo no primeiro quadrado e nos quadrados
+seguintes o dobro do quadrado anterior. Ou seja, no primeiro quadro coloca-se 1 grão, no segundo
+quadro colocam-se 2 grãos (neste momento têm-se 3 grãos), no terceiro quadro colocam-se 4 grãos
+(agora tem-se 7), no quarto quadro colocam-se 8 grãos (agora tem-se 15) até atingir o sexagésimo
+quarto quadro (exercício baseado no capítulo 16 do livro “O homem que calculava” de Malba Tahan).
+Q4
+SOMAR 5 FATORIAIS – Crie um programa que efetua a leitura de 5 valores numéricos inteiros
+informados pelo usuário, no final o programa deverá apresentar a soma dos fatoriais de cada um dos
+valores informados pelo usuário.
+Q5
+SOMAR 6 VALORES E MÉDIA – Crie uma aplicação que deverá ler 6 valores, esta aplicação ao final
+deverá apresentar a soma dos valores lidos e a média.
+Q6
+SOMAR VALORES POSITIVOS ATÉ APARECER NEGATIVO – Crie um programa que deverá realizar a
+leitura sucessiva de valores numéricos, no final o programa deverá apresentar a soma dos valores, o
+número de valores somados e a média. O programa deverá realizar leituras sucessivas de valores
+enquanto o usuário estiver fornecendo valores positivos, ou seja, o programa deve parar quando o
+usuário fornecer um valor negativo (menor que zero).
+Q7
+SOMAR FATORIAIS ÍMPARES DE 1 A 20 – Crie um programa que realize a soma de todos os fatoriais
+dos valores ímpares entre 1 e 20, no final o programa deverá apresentar a soma e número de valores
+ímpares

@@ -1,0 +1,76 @@
+package Lista2.pt4;
+
+import java.util.Scanner;
+
+public class Lista2pt4ex1 {
+    public static void main(String[] args) {
+	Scanner teclado = new Scanner(System.in);
+	double arearetangulo, areaquadrado, areacirculo, areatriangulo = 0;
+	double baseretangulo, alturaretangulo = 0;    
+	double ladoquadrado = 0;
+	double basetriangulo, alturatriangulo = 0;
+	double raio = 0;
+	double pi = 3.14;
+	
+	
+	System.out.println("Digite o valor da base do seu retangulo: ");
+	baseretangulo = teclado.nextDouble();
+	System.out.println("Digite o valor da altura do seu retangulo: ");
+	alturaretangulo = teclado.nextDouble();
+	
+	
+	System.out.println("Digite o valor do lado do seu quadrado: ");
+	ladoquadrado = teclado.nextDouble();
+	
+	System.out.println("Digite o valor do raio do seu circulo: ");
+	raio = teclado.nextDouble();
+	
+	System.out.println("Digite o valor da base do seu triangulo: ");
+	basetriangulo = teclado.nextDouble();
+	System.out.println("Digite o valor da altura do seu triangulo: ");
+	alturatriangulo = teclado.nextDouble();
+
+	
+	 //retangulo 
+	 arearetangulo = (baseretangulo * alturaretangulo);
+	 //quadrado 
+	 areaquadrado = Math.pow(ladoquadrado, 2);
+	 //circulo 
+	 areacirculo = (Math.pow(raio, 2) * pi);
+	 //triangulo 
+	 areatriangulo = ((basetriangulo * alturatriangulo) / 2);
+	 
+	 //maior e menor 
+	 double menor = arearetangulo;
+
+	if (areatriangulo < menor) menor = areatriangulo;
+	if (areacirculo < menor) menor = areacirculo;
+	if (areaquadrado < menor) menor = areaquadrado;
+	 
+	 double maior = arearetangulo;
+
+	if (areatriangulo > maior) maior = areatriangulo;
+	if (areacirculo > maior) maior = areacirculo;
+	if (areaquadrado > maior) maior = areaquadrado;
+	 
+
+	//ordem crescente
+	double a = arearetangulo;
+	double b = areaquadrado;
+	double c = areacirculo;
+	double d = areatriangulo;
+
+	if (a > b) { double temp = a; a = b; b = temp; }
+	if (a > c) { double temp = a; a = c; c = temp; }
+	if (a > d) { double temp = a; a = d; d = temp; }
+	if (b > c) { double temp = b; b = c; c = temp; }
+	if (b > d) { double temp = b; b = d; d = temp; }
+	if (c > d) { double temp = c; c = d; d = temp; }
+	 
+	System.out.println("Aqui esta o valor da area do seu retangulo " + arearetangulo + " do seu quadrado " + areaquadrado + " do seu circulo " + areacirculo + " e do seu triangulo " + areatriangulo);
+	System.out.println("A menor area foi a: " + menor);
+	System.out.println("A maior area foi a: " + maior);
+	System.out.println("Ordeem crescente " + a + ", " + b + ", " + c + " e " + d);
+	teclado.close();
+	}
+}
