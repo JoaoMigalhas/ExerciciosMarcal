@@ -1,0 +1,26 @@
+Q1
+ALUNOS – Crie uma classe chamada Aluno, adicione a esta classe os seguintes atributos: RA, NOME,
+IDADE, CPF, SEXO, EMAIL, TELEFONE. Para cada atributo crie uma propriedade pública.
+Para testar, crie um menu interativo com as opções:
+Adicionar – Deverá instanciar um objeto do tipo Aluno e carregar com informações fornecidas pelo
+usuário.
+Exibir – Deverá exibir o objeto Aluno instanciado e as informações carregas pelo usuário.
+Q2
+ALUNOS 2 – PERSISTÊNCIA – Crie uma aplicação para armazenar dados de Alunos, a aplicação deverá:
+a) Conter as seguintes informações dos alunos: ra, nome, idade, cpf, sexo, e-mail, telefone.
+b) Deverá conter um menu interativo com as seguintes opções: Cadastrar; Exibir; Remover (RA);
+Localizar (RA)
+Notas gerais:
+- A classe deverá conter atributos e propriedades;
+- Os dados poderão ser persistidos em um VETOR;
+Q3
+PRODUTOS – Crie uma aplicação que possibilite a manipulação de pelo menos 100 Produtos, a
+aplicação deverá conter obedecer aos seguintes requisitos:
+a) Produto – Deverá conter: Código, Nome, Descrição, Quantidade em estoque; Preço custo;
+Margem Lucro; Preço de Venda.
+b) Operações – Cadastrar; Pesquisar (código); Remover (Código); Imprimir todos; Limpar base de
+dados; Contar número produtos cadastrados; Exibir produto com maior preço venda.
+Notas gerais:
+- O preço de venda deverá conter apenas a propriedade de leitura (get), e o preço de venda deverá ser
+calculado baseado no preço de custo x margem de lucro.
+- Deverá conter um menu interativo.
